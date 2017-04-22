@@ -1,7 +1,7 @@
 $(function(){
 	
 	var okno = $(window);
-	var menu = $('#main-menu');
+	var menu = $('#main-nav');
 	var link = $('a');
 	
 	if(okno.scrollTop() >= 100) {

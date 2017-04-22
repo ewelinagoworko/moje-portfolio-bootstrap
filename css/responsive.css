@@ -9,30 +9,30 @@
 
 
 @media (max-width: 768px) {
-	#main-menu label {
-		display: block;
-		color: #1ac056;
+	#main-nav {
+		background-color: white;
 		text-align: right;
-		padding: 15px;
+		
 	}
-	#main-menu ul {
-		margin: 0;
-		display: none;
+	
+	#main-menu ul .menu-item a {
+	color: #1ac056;
 	}
-	#main-menu ul .menu-item {
-		display: block;
-		padding: 15px;
-	}
-	#main-menu #drop:checked + ul {
-		display: block;
-	}
+
+	#main-menu ul .menu-item a:hover {
+	color: #291f1a;
+ 	}
+	
+	
 	.col-1-2 {
 		width: 100%;
 	}
+	
 	#jannowak {
 		width: 100%;
 		max-height: none;
 	}
+	
 	#html5,
 	#css3,
 	#js,
@@ -41,12 +41,15 @@
 		width: 49%;
 		margin-top: 20px;
 	}
+	
 	#portfolio .portfolio-item {
 		width: 100%;
 	}
+	
 	#contact {
 		text-align: center;
 	}
+	
 	#contact .col-1-2 h2 {
 		text-align: center;
 	}

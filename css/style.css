@@ -11,13 +11,10 @@ body {
 
 section {
 	overflow: auto;
-	padding: 25px 40px;
+	padding: 60px 0px;
 }
 
-.col-1-2 {
-	width: 50%;
-	float: left;
-}
+
 
 span {
 	color: #1ac056;
@@ -53,44 +50,36 @@ h4 {
 
 /*Menu nawigacyjne*/
 
-#main-menu {
+#main-nav {
 	background-color: transparent;
-	position: fixed;
-	z-index: 10;
-	width: 100%;
-	margin: 0;
-	text-align: right;
+	border: none;
+	
 }
 
-#main-menu label,
-#main-menu #drop {
-	display: none;
-}
-
-#main-menu ul .menu-item {
-	display: inline-block;
+#main-nav ul .menu-item {
 	padding: 20px;
 }
 
-#main-menu ul .menu-item a {
+#main-nav ul .menu-item a {
 	color: #fff;
 	text-decoration: none;
 	transition: all .3s;
 }
 
-#main-menu ul .menu-item a:hover {
+#main-nav ul .menu-item a:hover {
 	color: #1ac056;
 }
 
-#main-menu.scroll {
+#main-nav.scroll {
 	background-color: #fff;
+	
 }
 
-#main-menu.scroll ul .menu-item a {
+#main-nav.scroll ul .menu-item a {
 	color: #1ac056;
 }
 
-#main-menu.scroll ul .menu-item a:hover {
+#main-nav.scroll ul .menu-item a:hover {
 	color: #291f1a;
 }
 
