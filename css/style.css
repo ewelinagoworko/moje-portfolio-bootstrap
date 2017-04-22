@@ -15,7 +15,6 @@ section {
 }
 
 
-
 span {
 	color: #1ac056;
 }
@@ -187,10 +186,13 @@ h4 {
 	text-align: center;
 }
 
+#portfolio .portfolio-items [class*="col-"] {
+	padding: 0;
+}
+
+
 #portfolio .portfolio-item {
 	height: 350px;
-	width: 33%;
-	display: inline-block;
 	font-size: initial;
 	background-size: cover;
 	background-position: center;
